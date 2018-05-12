@@ -1,0 +1,80 @@
+body{
+    background-color: #00bcd4;
+    margin: 0;
+    padding: 0;
+}
+
+nav  {
+    background-color:#3d95ae;
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+}
+
+
+.board {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    left: 15px;
+}
+
+#logo {
+    display: inline-block;
+    width: 33%;
+    bottom: 10px;
+    
+}
+
+.superior-icons{
+
+    display: inline-block;
+    width: 13%;
+    position: relative;
+    left: 16em;
+   
+}
+
+.superior-icons > p {
+    display: inline-block;
+    background-color: #6cb5c7;
+    margin: 1px;
+    padding: 7px;
+    border-radius: 5px;
+    position: relative;
+}
+
+i {
+    color: white;
+}
+#logo img {
+    width: 19%;
+    position: relative;
+    left: 11em;
+    top: 7px;
+    opacity: .5;
+}
+
+.board button{
+    margin-right: 5px;
+    background-color: #6cb5c7;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.board input {
+    background-color: #6cb5c7;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+
+.board .search-icon {
+    position: relative;
+    top: 2px;
+    left: -28px;
+    transform: rotateY(180deg);
+}
