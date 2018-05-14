@@ -23,16 +23,14 @@ nav  {
     display: inline-block;
     width: 33%;
     bottom: 10px;
-    
 }
 
 .superior-icons{
-
     display: inline-block;
-    width: 13%;
+    width: 12%;
     position: relative;
-    left: 16em;
-   
+    left: 17em;
+    bottom: 5px; 
 }
 
 .superior-icons > p {
@@ -44,37 +42,126 @@ nav  {
     position: relative;
 }
 
+.superior-icons > p:hover{
+    opacity: 0.8;
+}
+
+.superior-icons > img {
+
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    top: 10px; 
+    border-radius: 15px;
+}
+
 i {
     color: white;
 }
+
 #logo img {
-    width: 19%;
+    width: 21%;
     position: relative;
     left: 11em;
-    top: 7px;
+    top: 4px;
     opacity: .5;
+}
+
+#logo img:hover{
+    opacity: 0.9;
 }
 
 .board button{
     margin-right: 5px;
     background-color: #6cb5c7;
-    padding: 7px;
+    padding: 9px;
     border: none;
     border-radius: 3px;
     color: white;
     font-weight: bold;
+    position: relative;
+    bottom: 7px;
+}
+
+.board button:hover{
+    opacity: 0.8;
 }
 
 .board input {
     background-color: #6cb5c7;
-    padding: 7px;
     border: none;
     border-radius: 3px;
+    padding: 9px;
+    position: relative;
+    bottom: 7px;
+}
+
+.board input:hover{
+    opacity: 0.8;
 }
 
 .board .search-icon {
     position: relative;
-    top: 2px;
+    top: -4px;
     left: -28px;
     transform: rotateY(180deg);
 }
+
+.menu-buttons {
+    background-color: transparent;
+    border: none;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.menu-buttons:hover{
+    background-color: #3d95ae;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menu-buttons:first-child{
+    font-size: 18px;
+    opacity: .8;
+    font-weight: bold;
+}
+
+button#personal{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+header a{
+    color: white;
+    position: relative;
+    left:51em;
+    top: 1em;
+    border-radius: 10px;
+}
+
+header a:hover{
+    padding: 0.5em;
+    opacity: 0.8;
+    background-color: #3d95ae;
+    border-radius: 10px;
+}
+
+ .add-list{
+    background-color: #3d95ae;
+    padding: 12px;
+    width: 20em;
+    text-align: left;
+    border: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    border-radius: 10px;
+
+ }
+
+ .add-list:hover{
+     background-color: #2f869e;
+ }
