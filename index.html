@@ -30,12 +30,17 @@
         <button class="menu-buttons"><i class="far fa-star"></i></button>
         <button class="menu-buttons" id="personal">Personal</button>
         <button class="menu-buttons"><i class="fas fa-lock"></i> Privado</button>
-        <a href="#">Mostrar Menú</a>
+        <a href="#">Mostrar menú</a>
     </header>
     <br>
-    <section>
-        <button class="add-list">Añadir una lista...</button>
+    <section id="show-button-container">
+        <button id="show-form-button" class="add-list"> Añadir una lista...</button>
     </section>
+    <section id="list-form" class="form-box hidden">
+        <input class="input-box" type="text" placeholder="Añadir una lista...">
+        <button id="green-button">Guardar</button>
+        <button id="x">&times;</button>
+    </section> 
     <script src="js/app.js"></script>
 </body>
 </html>
