@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!--************************************Barra de navegacion****************************************-->
     <nav>
         <div class="board">
             <button><i class="fab fa-trello"></i> Tableros</button>
@@ -25,6 +26,7 @@
             <img src="assets/image/karla.jpg" alt="foto-perfil">
         </div>
     </nav>
+    <!--*******************************Bototes de menú principal***************************************-->
     <header>
         <button class="menu-buttons"><em>Tablero sin título</em></button>
         <button class="menu-buttons"><i class="far fa-star"></i></button>
@@ -33,18 +35,43 @@
         <a href="#">Mostrar menú</a>
     </header>
     <br>
+    <!--********************************Final de Header************************************************-->
 
-    <section id="controls" class="column">
-        <div id="show-button-container">
-            <button id="show-form-button" class="add-list"> Añadir una lista...</button>
-        </div>
-        <div id="list-form" class="form-box hidden">
-            <input id="inputBox" class="input-box" type="text" placeholder="Añadir una lista...">
-            <button id="green-button">Guardar</button>
-            <button id="x">&times;</button>
-        </div> 
-    </section>
     
+
+   <!-- <section class="column">
+        <div id="text-container" class="add-card">
+            <p class="card-box"><strong>iuytreswa</strong></p>
+            <div class="add-card-link-container">
+                <a href="#" class="add-card-link">
+                        Añadir una tarjeta...
+                </a>
+            </div>
+            <div class="add-card-form hidden">
+                <textarea class="contain"></textarea>
+        
+                <button class="add-card-button green-button">Añadir</button>
+                <button id="x2">&times;</button>
+            </div>
+        </div>
+    </section>-->
+
+    <!--******************************Boton principal de añadir una lista******************************-->
+  
+    <section id="controls" class="column">
+            <div id="show-button-container">
+                <button id="add-list-form-button" class="add-list"> Añadir una lista...</button>
+            </div>
+
+    <!--**********caja con el boton  verde de guardar que reemplaza el boton principal***************** -->
+           
+            <div id="list-form" class="form-box hidden">
+                <input id="inputBox" class="input-box" type="text" placeholder="Añadir una lista...">
+                <button id="save-list-button" class="green-button">Guardar</button>
+                <button id="x">&times;</button>
+            </div> 
+        </section>
+   
     <script src="js/app.js"></script>
 </body>
 </html>
