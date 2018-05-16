@@ -1,0 +1,268 @@
+body{
+    background-color: #00bcd4;
+    margin: 0;
+    padding: 0;
+}
+
+nav  {
+    background-color:#3d95ae;
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+}
+
+.column {
+    width: 30%;
+    height: 600px;
+    float: left;
+    padding: 0 5px;
+}
+
+.board {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    left: 15px;
+}
+
+#logo {
+    display: inline-block;
+    width: 33%;
+    bottom: 10px;
+}
+
+
+#logo img {
+    width: 21%;
+    position: relative;
+    left: 11em;
+    top: 4px;
+    opacity: .5;
+}
+
+#logo img:hover{
+    opacity: 0.9;
+}
+
+.superior-icons{
+    display: inline-block;
+    width: 12%;
+    position: relative;
+    left: 17em;
+    bottom: 5px; 
+}
+
+.superior-icons > p {
+    display: inline-block;
+    background-color: #6cb5c7;
+    margin: 1px;
+    padding: 7px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.superior-icons > p:hover{
+    opacity: 0.8;
+}
+
+.superior-icons > img {
+
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    top: 10px; 
+    border-radius: 15px;
+}
+
+i {
+    color: white;
+}
+
+.board button{
+    margin-right: 5px;
+    background-color: #6cb5c7;
+    padding: 9px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 7px;
+}
+
+.board button:hover{
+    opacity: 0.8;
+}
+
+.board input {
+    background-color: #6cb5c7;
+    border: none;
+    border-radius: 3px;
+    padding: 9px;
+    position: relative;
+    bottom: 7px;
+}
+
+.board input:hover{
+    opacity: 0.8;
+}
+
+.board .search-icon {
+    position: relative;
+    top: -4px;
+    left: -28px;
+    transform: rotateY(180deg);
+}
+
+.menu-buttons {
+    background-color: transparent;
+    border: none;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.menu-buttons:hover{
+    background-color: #3d95ae;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menu-buttons:first-child{
+    font-size: 18px;
+    opacity: .8;
+    font-weight: bold;
+}
+
+button#personal{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+header a{
+    color: white;
+    position: relative;
+    left:51em;
+    top: 1em;
+    border-radius: 10px;
+}
+
+header a:hover{
+    padding: 0.5em;
+    opacity: 0.8;
+    background-color: #3d95ae;
+    border-radius: 10px;
+}
+
+ .add-list{
+    background-color: #3d95ae;
+    padding: 10px;
+    width: 20em;
+    text-align: left;
+    border: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    border-radius: 5px;
+
+ }
+
+ .add-list:hover{
+     background-color: #2f869e;
+ }
+
+.form-box{
+    background-color: lightgrey;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    display: block;
+    width: 100%;
+    padding: 4px;
+    box-sizing:border-box;
+}
+
+.input-box{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: #00000000;
+    margin-bottom: 2px;
+}
+
+.form-box #green-button{
+    background-color: #519839;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 32%;
+}
+
+.form-box #green-button:hover{
+    background-color: green;
+}
+
+.form-box #x{
+    border: none;
+    font-size: 45px;
+    background-color: transparent;
+    color: #999;
+    position: absolute;
+    top: 35px;
+}
+
+.form-box #x:hover{
+    color:black;
+}
+
+.hidden{
+    display: none;
+}
+
+.add-card{
+    background-color: lightgrey;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-box{
+    width: 88%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #00000000;
+    margin-bottom: 2px;
+}
+
+#dots{
+    position: relative;
+    display: inline;
+    box-sizing: border-box;
+    left: 3px;
+    bottom: 5px;
+    color: #999;
+    font-size: 27px;
+}
+
+#dots:hover{
+    color: black;
+}
+
+.add-card-link{
+    color: #999;
+    margin: 5px;
+}
+
+.add-card-link:hover{
+    color:  #4d4d4d;
+    text-decoration: underline;
+}
+
