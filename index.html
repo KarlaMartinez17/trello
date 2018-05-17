@@ -35,42 +35,33 @@
         <a href="#">Mostrar menú</a>
     </header>
     <br>
-    <!--********************************Final de Header************************************************-->
-
-    
-
-   <!-- <section class="column">
+    <!--******************************Boton principal de añadir una lista******************************-->
+    <section id="column" class="column hidden">
         <div id="text-container" class="add-card">
-            <p class="card-box"><strong>iuytreswa</strong></p>
-            <div class="add-card-link-container">
-                <a href="#" class="add-card-link">
-                        Añadir una tarjeta...
-                </a>
+            <strong id="list-title">iuytreswa</strong>
+            <div id="add-card-link-container" class="add-card-link-container">
+                <a id="add-card-link-button" href="#" class="add-card-link"> Añadir una tarjeta... </a>
             </div>
             <div class="add-card-form hidden">
                 <textarea class="contain"></textarea>
-        
-                <button class="add-card-button green-button">Añadir</button>
+                <button id="add-card-button" class="add-card-button green-button">Añadir</button>
                 <button id="x2">&times;</button>
             </div>
         </div>
-    </section>-->
+    </section>
+    <section id="add-list-form" class="column">
+        <div id="show-button-container" class="">
+            <button id="add-list-form-button" class="add-list"> Añadir una lista...</button>
+        </div>
 
-    <!--******************************Boton principal de añadir una lista******************************-->
-  
-    <section id="controls" class="column">
-            <div id="show-button-container">
-                <button id="add-list-form-button" class="add-list"> Añadir una lista...</button>
-            </div>
-
-    <!--**********caja con el boton  verde de guardar que reemplaza el boton principal***************** -->
-           
-            <div id="list-form" class="form-box hidden">
-                <input id="inputBox" class="input-box" type="text" placeholder="Añadir una lista...">
-                <button id="save-list-button" class="green-button">Guardar</button>
-                <button id="x">&times;</button>
-            </div> 
-        </section>
+        <!--**********caja con el boton  verde de guardar que reemplaza el boton principal***************** -->
+        
+        <div id="list-form" class="form-box hidden">
+            <input id="input-box" class="input-box" type="text" placeholder="Añadir una lista...">
+            <button id="save-list-button" class="green-button">Guardar</button>
+            <button id="x">&times;</button>
+        </div> 
+    </section>
    
     <script src="js/app.js"></script>
 </body>
