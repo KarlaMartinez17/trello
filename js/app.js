@@ -22,7 +22,7 @@ function addList(){
     var listTitle = document.getElementById('list-title');
     var column = document.getElementById('column');
     column.classList.remove('hidden');
-    listTitle.innerText = inputBoxValue;
+    listTitle.value = inputBoxValue;
 }
 
 saveButton.addEventListener('click', addList);
@@ -30,13 +30,46 @@ saveButton.addEventListener('click', addList);
 //*********************************version 0.0.3***************************************
 
 
-var addCardButton = document.getElementById('add-card-link-button');
+var addCardLinkButton = document.getElementById('add-card-link-button');
 
 function showCardForm(event){
     var addCardLinkContainer = document.getElementById('add-card-link-container');
     var addCardForm = document.getElementById('add-card-form')
     addCardForm.classList.remove('hidden');
     addCardLinkContainer.classList.add('hidden'); 
+    getfocus();
 }
 
-addCardButton.addEventListener('click',showCardForm);
+addCardLinkButton.addEventListener('click',showCardForm);
+
+//****************************Version 0.0.4*****************************************
+
+function getfocus(){
+    document.getElementById('list-title').focus();
+}
+
+//***************************Version 0.0.4-1****************************************
+var addCardButton = document.getElementById('add-card-button');
+
+function addCard (){
+    var textValueCard = document.getElementById('text-value-card').value;
+    document.getElementById('text-value-card').value = '';
+    var perro = document.getElementById('text-container');
+    
+    var newDiv = document.createElement('div');
+    newDiv.innerHTML = textValueCard;
+    var addCardLinkContainer = document.getElementById('add-card-link-container');
+
+    perro.insertBefore(newDiv, addCardLinkContainer)
+
+
+
+}
+
+
+addCardButton.addEventListener('click', addCard);
+
+
+
+//*********************************************************
+

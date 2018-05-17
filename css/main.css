@@ -289,3 +289,11 @@ header a:hover{
     text-decoration: underline;
 }
 
+#list-title{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#list-title:focus{
+    background-color: white;
+}
