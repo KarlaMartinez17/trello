@@ -1,6 +1,4 @@
-/*función que esconde el boton de "añadir lista" 
-y lo reemplaza con un cuadro con un input para guardar 
-la informacion que ingrese el usuario*/
+//***************************version 0.0.1****************************************
 
 var addListFormButton = document.getElementById('add-list-form-button');
 
@@ -13,7 +11,7 @@ function showForm(event){
 
 addListFormButton.addEventListener('click', showForm);
 
-//**************************************************************************** */
+//********************************version 0.0.2***********************************
 
 var saveButton = document.getElementById('save-list-button');
 
@@ -25,17 +23,20 @@ function addList(){
     var column = document.getElementById('column');
     column.classList.remove('hidden');
     listTitle.innerText = inputBoxValue;
-
 }
 
 saveButton.addEventListener('click', addList);
-/*****************************************************************************
 
-var addCardButton.document.getElementById('add-card-button');
+//*********************************version 0.0.3***************************************
+
+
+var addCardButton = document.getElementById('add-card-link-button');
 
 function showCardForm(event){
-    var addCardLinkContainer.getElementById('"add-card-link-container')
-    var 
+    var addCardLinkContainer = document.getElementById('add-card-link-container');
+    var addCardForm = document.getElementById('add-card-form')
+    addCardForm.classList.remove('hidden');
+    addCardLinkContainer.classList.add('hidden'); 
 }
 
-addCardButton.addEventListener('click',)*/
+addCardButton.addEventListener('click',showCardForm);
