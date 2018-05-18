@@ -48,28 +48,23 @@ function getfocus(){
     document.getElementById('list-title').focus();
 }
 
-//***************************Version 0.0.4-1****************************************
+//***************************Version 0.0.4-1 y 5 ****************************************
 var addCardButton = document.getElementById('add-card-button');
 
 function addCard (){
     var textValueCard = document.getElementById('text-value-card').value;
     document.getElementById('text-value-card').value = '';
-    var perro = document.getElementById('text-container');
+    var cardContainer = document.getElementById('card-container');
     
     var newDiv = document.createElement('div');
     newDiv.innerHTML = textValueCard;
     var addCardLinkContainer = document.getElementById('add-card-link-container');
 
-    perro.insertBefore(newDiv, addCardLinkContainer)
-
-
+    cardContainer.insertBefore(newDiv, addCardLinkContainer)
 
 }
 
 
 addCardButton.addEventListener('click', addCard);
 
-
-
-//*********************************************************
 

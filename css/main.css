@@ -16,6 +16,7 @@ nav  {
     height: 500px;
     float: left;
     padding: 0 5px;
+    overflow: hidden;
 }
 
 .column .contain {
@@ -297,3 +298,4 @@ header a:hover{
 #list-title:focus{
     background-color: white;
 }
+
